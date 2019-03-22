@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --open --hot",
-    "build": "webpack --mode=production --progress --hide-modules"
+    "build": "node build/build.js"
   },
   "author": "Zz",
   "license": "ISC",
@@ -31,5 +31,9 @@
     "babel-loader": "^7.1.5",
     "lodash": "^4.17.11",
     "vue": "^2.5.21"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
   }
 }

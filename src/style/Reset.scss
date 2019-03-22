@@ -1,0 +1,61 @@
+html, body, input, textarea {
+  font-family: PingFangSC, PingFangSC-Medium,Helvetica Neue,Helvetica,Tahoma,Arial, Microsoft Yahei,sans-serif;
+}
+html, body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, table, img, td, input{
+  margin: 0;
+  padding: 0;
+}
+ul, ol, li {
+  list-style-type: none;
+}
+li {
+  vertical-align: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+cite, i {
+  font-style: normal;
+}
+body, input, select, textarea {
+  outline: none;
+}
+a{
+  outline-style:none;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+img {
+  border: none;
+  display: block;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  *zoom:1;
+}
+.clear {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.flex {
+  display: flex;
+}
