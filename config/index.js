@@ -22,7 +22,8 @@ module.exports = {
     assetspublicPath: '/', // 定义静态资源的公开路径，也就是真正的引用路径
     proxyTable: {
       // 这里配置开发环境的代理
-    }, // 本地开发环境配置代理，接口跨域访问的配置
+      
+    },
     autoOpenBrowser: false, // 是否在启动完成自动打开浏览器
     errorOverlay: true, // 是否查询错误
     notifyOnErrors: true, // 是否通知错误
